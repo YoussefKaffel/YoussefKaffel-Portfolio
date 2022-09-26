@@ -1,0 +1,61 @@
+.home{
+  z-index: 0;
+}
+header {
+  height: 100vh;
+  background-image: url(https://img.freepik.com/free-photo/office-table-with-cup-coffee-keyboard-notepad_1220-4584.jpg?w=2000);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  color: #e5cfcf;
+}
+
+header::after {
+  content: '';
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.7;
+}
+
+header * {
+  position: relative;
+  z-index: 1;
+}
+
+header h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  text-align: center;
+}
+
+header p {
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+}
+
+.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}

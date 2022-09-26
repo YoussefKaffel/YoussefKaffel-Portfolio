@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.header-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Josefin Slab', serif;
+}
+.profile-photo{
+    width: 180px;
+    height: 260px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.about{
+    min-height: 100vh;
+    background-color: #323643;
+    color : #ffffff;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+}
+.about__content{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin: 20px;
+}
+.about__content h1{
+    font-family: 'Josefin Slab', serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 50px;
+}
+.about__content p{
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 10px;
+    text-align: center;
+    line-height: 150%;
+}
+.skills{
+    color : white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.about__content__btn{
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
