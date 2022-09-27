@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/YoussefKaffel-Portfolio/static/css/main.173574d6.css",
+    "main.css": "/YoussefKaffel-Portfolio/static/css/main.ae41e925.css",
     "main.js": "/YoussefKaffel-Portfolio/static/js/main.50f31df9.js",
     "static/media/DSC_6045.jpg": "/YoussefKaffel-Portfolio/static/media/DSC_6045.0b5a46ac789c16010fcc.jpg",
     "index.html": "/YoussefKaffel-Portfolio/index.html",
-    "main.173574d6.css.map": "/YoussefKaffel-Portfolio/static/css/main.173574d6.css.map",
+    "main.ae41e925.css.map": "/YoussefKaffel-Portfolio/static/css/main.ae41e925.css.map",
     "main.50f31df9.js.map": "/YoussefKaffel-Portfolio/static/js/main.50f31df9.js.map"
   },
   "entrypoints": [
-    "static/css/main.173574d6.css",
+    "static/css/main.ae41e925.css",
     "static/js/main.50f31df9.js"
   ]
 }
